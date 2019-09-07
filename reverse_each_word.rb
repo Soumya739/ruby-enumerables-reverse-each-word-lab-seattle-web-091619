@@ -1,8 +1,8 @@
 def reverse_each_word(string)
- %w[string]
+ array = %w[string]
  reversed_string = []
  
- string.each do |char|
+ array.each do |char|
   reversed_string.push(char)
  end
  
